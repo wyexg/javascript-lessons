@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.div1 {
+    background-image: linear-gradient(to right, gray, gray, white);
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.div2 {
+    margin: 20px;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 20px;
+    column-rule-width: 2px;
+    column-rule-style: solid;
+    column-rule-color: rgba(173, 155, 155, 0.671);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    column-width: 100px;
+}
+.div2 h2{
+    background-image: linear-gradient(to right, rgb(236, 215, 215), rgb(201, 159, 159), rgb(194, 103, 103));
+    text-transform: capitalize;
+   
+}
